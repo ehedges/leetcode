@@ -31,4 +31,5 @@ var maxSumDivThree = function(nums) {
 
     if(total%3 == 0) return total;
     if(total%3 == 1) return total - Math.min(smallestTwo+secondSmallestTwo,smallestOne);
-    return total - Math.min(smallestOne+secondSmallestOne,smallestTwo);
+    return total - Math.min(smallestOne+secondSmallestOne,smallestTwo)
+}
